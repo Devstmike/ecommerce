@@ -1,0 +1,1135 @@
+/* https://preview.themeforest.net/item/tienda-ecommerce-joomla-theme-with-page-builder/full_screen_preview/21719329?_ga=2.238486855.652081270.1695167510-971325898.1692235628 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  text-decoration:none;
+  list-style-type:none;
+}
+
+:root{
+  --pinky : #e94e4c;
+  --mypop :'Poppins', sans-serif;
+  --longborder:rgba(164, 172, 179, 0.4)
+}
+
+body{
+/*   background:red !important; */
+  font-family:var(--mypop)
+}
+
+header img{
+  object-fit:cover;
+  min-height:100vh;
+}
+
+
+header .carousel-item:first-child .carousel-caption{
+  text-align:left !important;
+}
+
+
+header .carousel-item:first-child .carousel-caption > *{
+  margin-bottom:20px !important
+}
+
+header .carousel-item:first-child .carousel-caption h4{
+  background: var(--pinky);
+  display:inline;
+}
+
+
+header .carousel-item:first-child .carousel-caption div span{
+  padding:20px;
+  background:var(--pinky);
+  color:white;
+  padding:15px 25px;
+}
+
+
+header .carousel-item:first-child .carousel-caption div p{
+  margin:20px 0 !important;
+}
+
+
+
+
+header .carousel-item:first-child .carousel-caption div span:nth-child(2){
+  padding:15px 25px  ;
+  background:white;
+  color:black;
+  margin-left:20px;
+}
+
+
+header .carousel-item:first-child .carousel-caption div span a{
+  color:white;
+}
+
+
+header .carousel-item:first-child .carousel-caption div span:nth-child(2) a{
+  color:black;
+}
+
+.section1 .top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:2px solid var(--longborder) ;
+  padding-bottom:10px;
+}
+
+.section1 .top > h3{
+  font-size:1.3rem;
+  font-weight:600
+}
+
+
+.section1 .top div > *{
+    display:inline;
+    font-size:1.1rem;
+  font-weight:700;
+  padding:10px;
+}
+
+.section1 .top div > .active{
+  border-bottom:2px solid var(--pinky);
+  padding-bottom:17px;
+  color:var(--pinky)
+}
+
+.section1{
+  padding:60px 0;
+}
+
+
+.section1 .solditems{
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top:40px;
+  gap:20px;
+}
+
+
+.section1 .solditems div > div{
+  height:300px;
+  padding:10px;
+}
+
+
+.section1 .solditems div > div {
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+
+.section1 .solditems div > div p{
+/*   color:transparent */
+  background:var(--pinky);
+  width:50px;
+  color:white;
+  text-transform:uppercase;
+  font-size:0.8rem;
+  padding:4px;
+  letter-spacing:1px
+}
+
+
+.section1 .solditems div > div button{
+  background:black;
+  color:white;
+  width:150px;
+  margin:auto;
+ padding:10px;
+}
+
+
+.section1 .solditems div > div i{
+/*   background:black; */
+  color:black;
+  font-size:2rem;
+  width:50px;
+  margin-left:auto;
+  
+}
+
+
+.section1 .solditems div >*{
+  text-align:center;
+}
+
+.section1 .solditems div:nth-child(1) div{
+  background: linear-gradient(rgba(233, 78, 76,0.8),rgba(233, 78, 76,0.8)),url(https://www.demo.unitemplates.com/tienda/images/virtuemart/product/resized/accesories_001_0x420.jpg);
+ background-repeat:no-repeat;
+ background-size:cover;
+  opacity:0.8
+}
+
+
+
+.section1 .solditems div:nth-child(2) div{
+  background: url("https://www.demo.unitemplates.com/tienda/images/virtuemart/product/resized/women_009_0x420.jpg");
+ background-repeat:no-repeat;
+  background-size:cover;
+}
+
+
+
+.section1 .solditems div:nth-child(3) div{
+  background: url("https://www.demo.unitemplates.com/tienda/images/virtuemart/product/resized/accesories_002_0x420.jpg");
+ background-repeat:no-repeat;
+  background-size:cover;
+}
+
+
+
+.section1 .solditems div:nth-child(4) div{
+  background: url("https://www.demo.unitemplates.com/tienda/images/virtuemart/product/resized/accesories_003_0x420.jpg");
+ background-repeat:no-repeat;
+ background-size:cover;
+}
+
+
+
+.section1 .solditems div > p{
+  margin: 20px 0 0 0;
+}
+
+
+.section1 .solditems div > p + h3{
+  font-size:1.2rem;
+  font-weight:700
+}
+
+
+.section2{
+  background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("https://images.pexels.com/photos/68507/spring-flowers-flowers-collage-floral-68507.jpeg?auto=compress&cs=tinysrgb&w=600");
+  min-height:80vh;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+
+
+.section2{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+/*   padding: 0 100px; */
+}
+
+.section2{
+  color:white;
+  background-attachment:fixed
+}
+
+.section2 h3{
+  font-size:2.5rem;
+  font-weight:700
+}
+
+
+
+.section2 p{
+  width:50%;
+  text-align:center;
+  padding-top:20px
+}
+
+
+.section2 a{
+  color:white;
+  background:var(--pinky);
+  padding: 15px 40px;
+  margin-top:20px;
+}
+
+
+
+
+.section3 .col:nth-child(2) {
+ display:grid;
+ grid-template-columns: auto auto;
+ gap:40px;
+  
+}
+
+
+
+
+/* no hover
+ */
+
+
+.section3 .col:nth-child(2) > div:nth-child(1){
+ background: url("https://www.demo.unitemplates.com/tienda/images/collections/collection_016.jpg");
+  background-size:cover;
+}
+
+
+.section3 .col:nth-child(2) > div:nth-child(2){
+  background: url("https://www.demo.unitemplates.com/tienda/images/collections/collection_017.jpg");
+  background-size:cover;
+}
+
+
+
+.section3 .col:nth-child(2) > div:nth-child(3){
+  background: url("https://www.demo.unitemplates.com/tienda/images/collections/collection_018.jpg");
+  background-size:cover;
+} 
+
+
+
+.section3 .col:nth-child(2) > div:nth-child(4){
+  background: url("https://www.demo.unitemplates.com/tienda/images/collections/collection_019.jpg");
+  background-size:cover;
+}
+
+
+
+
+/* 
+hover */
+.section3 .col:nth-child(2) > div:nth-child(1):hover{
+  background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("https://www.demo.unitemplates.com/tienda/images/collections/collection_016.jpg");
+  background-size:cover;
+  
+}
+
+
+.section3 .col:nth-child(2) > div:nth-child(2):hover{
+  background: linear-gradient(rgba(233, 78, 76,0.8),rgba(233, 78, 76,0.8)),url("https://www.demo.unitemplates.com/tienda/images/collections/collection_017.jpg");
+background-size:cover;
+  
+}
+
+
+
+.section3 .col:nth-child(2) > div:nth-child(3):hover{
+  background: linear-gradient(rgba(233, 78, 76,0.8),rgba(233, 78, 76,0.8)),url("https://www.demo.unitemplates.com/tienda/images/collections/collection_018.jpg");
+background-size:cover;
+  
+} 
+
+
+
+.section3 .col:nth-child(2) > div:nth-child(4):hover{
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("https://www.demo.unitemplates.com/tienda/images/collections/collection_019.jpg");
+background-size:cover;
+  
+}
+
+
+
+
+
+
+.section3 .col:nth-child(2) > div:nth-child(odd){
+  display:flex;
+  flex-direction:column;
+  justify-content:end;
+  align-items:start;
+   padding:30px;  
+  max-width:250px;
+  color:white;
+}
+
+
+
+.section3 .col:nth-child(2) > div:nth-child(even){
+  display:flex;
+  flex-direction:column;
+  justify-content:end;
+  align-items:end;
+  padding:30px;  
+  max-width:250px;
+  color:white;
+}
+
+
+.section3 .col:nth-child(2) > div > h3{
+  text-transform:uppercase;
+  font-weight:700;
+  font-size:1.5rem;
+}
+
+
+
+.section3 .col:nth-child(2) > div > button{
+  text-transform:capitalize;
+  background:transparent;
+  color:white;
+  border: 1px solid white;
+  padding:8px 30px;
+  margin-top:10px;
+}
+
+
+
+
+
+.section3 .col:nth-child(1) > h3{
+text-transform:uppercase;
+ font-weight:700;
+  margin-bottom:30px;
+  display:inline-block;
+    
+}
+
+
+
+.section3 .col:nth-child(1) > h3 > span{
+  padding-bottom:8px;     
+  border-bottom:4px solid var(--pinky); 
+}
+
+
+.section3 .col:nth-child(1) > div > span{
+  margin-right:20px;
+  font-weight:700;
+  margin-top:20px;
+  display:inline-block;  
+}
+
+
+.section3 .col:nth-child(1) > div > span:first-child{
+  border-bottom: 2px solid var(--pinky);
+  height:inherit;
+  padding-bottom:2px;
+}
+
+.spanitem{
+  border-bottom: 2px solid var(--longborder)
+}
+
+
+
+.section3  div.item1 > div{
+  background:url("https://www.demo.unitemplates.com/tienda/images/virtuemart/product/resized/men_001_0x420.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+
+.section3 div.item2 > div{
+  background:url("https://www.demo.unitemplates.com/tienda/images/virtuemart/product/resized/men_002_0x420.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+
+
+.section3 .flexit{
+  display:flex;
+  align-items:center;
+  margin-top:30px
+}
+
+.section3 .flexit > div > div{
+  width:230px;
+  height:280px;
+  padding:10px;
+}
+
+
+.section3 .flexit > div:first-child{
+  margin-right:30px
+}
+
+
+
+.section3 .solditems div > div button{
+  background:black;
+  color:white;
+  width:150px;
+  margin:auto;
+ padding:10px;
+}
+
+
+.section3 .solditems div > div i{
+/*   background:black; */
+  color:black;
+  font-size:2rem;
+  width:50px;
+  margin-left:auto;
+  
+}
+
+
+.section3 .solditems div > div {
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.section3 .solditems div > div p{
+/*   color:transparent */
+  background:var(--pinky);
+  width:50px;
+  color:white;
+  text-transform:uppercase;
+  font-size:0.8rem;
+  padding:4px;
+  letter-spacing:1px
+}
+
+
+
+.section3 .solditems div > p{
+  margin: 20px 0 0 0;
+}
+
+
+.section3 .solditems div > p + h3{
+  font-size:1.2rem;
+  font-weight:700
+}
+
+.section3 .solditems div > p,.section3 .solditems div > h3{
+  text-align:center;
+}
+
+
+.section4 .solditems div > div button{
+  background:black;
+  color:white;
+  width:150px;
+  margin:auto;
+ padding:10px;
+}
+
+
+.section4 .solditems{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+
+.section4 .solditems div > div i{
+/*   background:black; */
+  color:black;
+  font-size:2rem;
+  width:50px;
+  margin-left:auto;
+}
+
+
+
+
+
+.section4  div.item1 > div{
+  background:url("https://www.demo.unitemplates.com/tienda/images/virtuemart/product/resized/women_002_0x420.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+
+.section4 div.item2 > div{
+  background:url("https://www.demo.unitemplates.com/tienda/images/virtuemart/product/resized/men_005_0x420.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+
+
+
+.section4 .col:nth-child(1) > h3{
+text-transform:uppercase;
+ font-weight:700;
+  margin-bottom:30px;
+/*   display:inline-block; */
+   text-align:center;
+  
+}
+
+
+
+.section4 .col:nth-child(1) > p{
+  text-align:center;
+}
+
+
+.section4 .col:nth-child(1) .travel{
+background:url("https://images.pexels.com/photos/11911820/pexels-photo-11911820.jpeg?auto=compress&cs=tinysrgb&w=600");
+/*   margin:0 20px; */
+  background-size:cover;
+  height:280px;
+}
+
+.section4 .col:nth-child(1) {
+  padding:0 20px;
+/*   background:red; */
+}
+
+
+.section4 .subrow img{
+  width:100%
+}
+
+
+
+.section4 .col:nth-child(2) h3{
+text-transform:uppercase;
+ font-weight:700;
+  margin-bottom:30px;
+/*   display:inline-block; */
+   text-align:center;
+  
+}
+
+
+
+.section4 .col:nth-child(2) > p{
+  text-align:center;
+}
+
+
+
+
+.section4 .subrow h3{
+  font-weight:initial;
+  font-size:initial;
+  font-size:0.9rem;
+  margin-top:20px;
+}
+
+
+.section4 .subrow div div > h3{
+text-align:left;
+  color:red
+
+}
+
+
+.section4 .solditems  > .item1,.section4 .solditems  > .item2{
+  width:100%;
+/*   background:green; */
+}
+
+
+.section4 .solditems  > .item1{
+  margin-right:30px;
+}
+
+
+
+
+.section4 .flexit > div > div{
+  width:initial;
+/*   width:100%; */
+  height:280px;
+/*   background:yellow; */
+}
+
+
+
+/* .section4 .solditems{
+  background:blue;  
+} */
+
+
+/* from section3*/
+
+
+.section4 .solditems div > div {
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.section4 .solditems div > div p{
+/*   color:transparent */
+  background:var(--pinky);
+  width:50px;
+  color:white;
+  text-transform:uppercase;
+  font-size:0.8rem;
+  padding:4px;
+  letter-spacing:1px
+}
+
+
+
+.section4 .solditems div > p{
+  margin: 20px 0 0 0;
+}
+
+
+.section4 .solditems div > p + h3{
+  font-size:1.2rem;
+  font-weight:700
+}
+
+.section4 .solditems div > p,.section4 .solditems div > h3{
+  text-align:center;
+}
+
+.section4 .travel{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+
+
+.section4 .travel h3{ 
+   font-size:800;
+   color:var(--pinky);
+  text-transform:uppercase;
+  font-size:        
+}
+
+
+.section4 .travel p{ 
+  font-weight:700;
+  font-size:1.2rem;
+}
+
+.section4 .travel button{ 
+   COLOR:WHITE;
+   background:var(--pinky);
+   font-size:1rem; 
+}
+
+.section5{
+  background: linear-gradient(rgba(233, 78, 76,0.5),rgba(233, 78, 76,0.5)) ,url("https://images.pexels.com/photos/129458/pexels-photo-129458.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-repeat:no-repeat;
+  background-size:cover;
+  min-height:70vh;
+}
+
+
+.section5 .row,.section5 .col{
+  min-height:inherit;
+}
+
+
+
+.section5 .col:first-child{
+  display:flex;
+  justify-content:center;
+  align-items:end;
+  flex-direction:column;
+  color:white;
+  padding-right:60px;
+}
+
+.section5 .col:nth-child(2){
+  display:flex;
+  justify-content:center;
+  align-items:start;
+  flex-direction:column;
+}
+
+.section5 .col:nth-child(2) button{
+  display:block;
+  color:white;
+  width:100%;
+  margin-top:20px;
+  background:black;  
+}
+
+.section5 input{
+  width:100%;
+  padding:8px 10px;
+  color:red;
+}
+
+.section5 form{
+   width: 60%;
+}
+
+
+.section5 .col:nth-child(1) p{  
+/*    color:red; */
+   text-align: justify;
+  text-justify: inter-word;
+}
+
+
+.section5 .wrap{
+  width:60%;
+}
+
+.section6 {
+  display:flex;
+}
+
+.section6 img{
+  width:100%;
+}
+
+.section6 div{
+  margin-right:20px;
+}
+
+
+.section7 img{
+  width:100%
+}
+
+.section7 .gridcontainer{
+  display:grid;
+  grid-template-columns: 100% 100% 100%;
+  gap:10px; 
+}
+
+
+
+.section7{
+  background:#212129;
+  color:white;
+  padding:80px 15px 80px 15px;
+  min-height:80vh;
+  }
+
+
+.section7 .rowu{
+  display:grid;
+  grid-template-columns: 20% 15% 15% 15% 35%;
+  gap:20px;
+}
+
+
+
+.section7 .colu:nth-child(1) > p{
+  color:#A4ACB3
+}
+
+
+.section7 .colu li a{
+  color:white;
+  display:inline-block;
+  border-bottom:1px dashed #A4ACB3;
+  padding:8px 0;
+  width:100%;
+}
+
+
+
+.section7 h3{
+  font-size:1.2rem;
+  font-weight:600;
+  
+}
+
+
+.section7 .colu:nth-child(2) > div{
+  background:var(--pinky);
+  color:var(--pinky);
+  height:2px;
+  width:60px;
+/*   font-size:2rem; */
+}
+
+
+.section7 .colu:nth-child(3) > div{
+  background:var(--pinky);
+  color:var(--pinky);
+  height:2px;
+  width:60px;
+/*   font-size:2rem; */
+}
+
+
+.section7 .colu:nth-child(4) > div{
+  background:var(--pinky);
+  color:var(--pinky);
+  height:2px;
+  width:60px;
+/*   font-size:2rem; */
+}
+
+
+.section7 .colu:nth-child(5) > div{
+  background:var(--pinky);
+  color:var(--pinky);
+  height:2px;
+  width:60px;
+/*   font-size:2rem; */
+  
+}
+
+.sitefooter{
+  background:#141419;
+  padding: 40px 10px;
+  color:white;
+}
+
+
+.sitefooter .col:nth-child(1) span{
+  color:var(--pinky)
+}
+
+
+.sitefooter .col:nth-child(2){
+  text-align:right;
+}
+
+
+.sitefooter .col:nth-child(2) i {
+    font-size:2rem;
+}
+
+
+
+
+
+/*margins*/
+.section2,.section3,.section4,.section5,.section6{
+  margin-bottom:80px;
+}
+
+
+
+
+/* media queries*/
+@media only screen and (max-width:992px){
+  
+  .section1 .solditems{
+    grid-template-columns: auto auto;
+  }  
+  
+  .section2{
+    padding:40px 0;
+  }
+  
+  .section2 h3{
+    font-size:1.6rem
+  }
+  
+  .section2 p{
+    width:70%;
+  }
+  
+  .section3 .col:nth-child(1) .item1,.section3 .col:nth-child(1) .item2,.section3 .col:nth-child(1) .item1>div,.section3 .col:nth-child(1) .item2 >div{
+    width:100%;
+  }
+  
+  
+  .section3 .col:nth-child(2) {
+    
+  }
+  
+  .section3 .col:nth-child(2) {
+
+  }
+  
+  .section3 .col:nth-child(2) > div{
+    max-width:initial !important;
+    height:300px;
+    
+}
+  
+  
+  .section4 .row {
+    flex-direction:column;  
+  }
+  
+  .section4 .subrow .row{
+    flex-direction:row;
+  }
+  
+  
+  .section5 .wrap{
+/*    background:red; */
+    width:80%
+  }
+  
+  .section7 .rowu{
+    grid-template-columns: 50% 50%;
+    gap:40px;
+  }
+  
+  
+  .section7{
+    padding-right:80px;
+    padding-left:40px;
+  }
+  
+/*   .section7 .gridcontainer{
+    background:red !important;
+    width:100%;
+  }
+  
+  
+  .section7 .gridcontainer > div{
+    width:100%;
+    background:red !important;
+  
+  } */
+  
+  .section7 .colu:nth-child(5){
+    grid-column:1/span 2;
+    width:100%;
+    background:blue
+  }
+  
+  
+  .section7 .gridcontainer{
+border:1px solid red;
+padding:0;
+ margin:0;   
+  }
+  
+  
+  .sitefooter .row{
+    margin:20px 0;
+    flex-direction:column;
+    
+  }
+  
+  .sitefooter .col:nth-child(2){
+    text-align:center;
+  }
+  
+}
+
+
+
+
+
+
+/*phone*/
+
+/* media queries*/
+@media only screen and (max-width:600px){
+  
+  .section1 .solditems{
+    grid-template-columns: auto;
+  }  
+  
+  
+  .section2 h3{
+    font-size:1.5rem
+  }
+ 
+  
+  .section5 .col:nth-child(1) h3{
+    font-size:1.4rem;
+  }
+
+  
+    .section5 .col:nth-child(1) p{
+    font-size:0.7rem;
+  }
+
+  .section5 .col:nth-child(2) form{
+      width:90%
+  }
+
+  
+  .section3 .col:nth-child(2) {
+    grid-template-columns:auto;
+  }
+  
+  
+  .section4 .row {
+    flex-direction:column;  
+  }
+  
+  .section4 .subrow .row{
+    flex-direction:column;
+  }
+  
+  
+  .section5 .wrap{
+/*    background:red; */
+    width:80%
+  }
+  
+  .section7 .rowu{
+    grid-template-columns: auto;
+  }
+  
+  .section4 .solditems, .section3 .solditems{
+  flex-direction:column;
+}
+
+  .section3 .row{
+    flex-direction:column;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*remove*/
+/* header, .section1,.section2,.section3,.section4,.section5,.section6,.section7{
+  display:none !important ;
+} */
